@@ -13,9 +13,9 @@ export const Timer = (props) => {
             }     
         }, [seconds])
     
-        return (
-            <div>
-                {seconds} 
-            </div>
-        )
+    return (
+        <div>                
+            {seconds} 
+        </div>
+    )
 }
